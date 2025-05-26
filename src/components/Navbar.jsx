@@ -4,8 +4,7 @@ import { useNavigate } from 'react-router';
 function Navbar() {
   const navigate = useNavigate();
 
-  const user = JSON.parse(localStorage.getItem('userData'));
-
+const user = JSON.parse(localStorage.getItem('userData')) || {};
   const handleLogout = () => {
     user.isLoggedIn = false
     localStorage.setItem('userData', JSON.stringify(user));

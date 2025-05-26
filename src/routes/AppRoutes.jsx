@@ -1,9 +1,9 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import Layout from '../layout/Layout';
-import HomePage from '../pages/HomePage'
-import SignupPage from '../pages/SignupPage'
-import LoginPage from '../pages/LoginPage'
+import HomePage from '../pages/HomePage';
+import SignupPage from '../pages/SignupPage';
+import LoginPage from '../pages/LoginPage';
 import BMI from '../components/BMI';
 import RouteProtect from '../components/RouteProtect';
 
