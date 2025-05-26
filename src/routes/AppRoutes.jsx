@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import Layout from '../layout/Layout';
-import HomePage from '../pages/homepage';
+import HomePage from '../pages/HomePage'
 import SignupPage from '../pages/signupPage';
 import LoginPage from '../pages/loginPage';
 import BMI from '../components/BMI';
